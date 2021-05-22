@@ -27,7 +27,7 @@ docker run [container]
 Intéragir avec un container :
 
 ```
-docker run -it [container]
+docker exec -it [container] /bin/bash
 ```
 
 Afficher l'état des containers :
